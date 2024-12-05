@@ -1,0 +1,133 @@
+header{
+    border-bottom: 5px solid green;
+    background-color: #fff;
+}
+.title-pages{
+    font-family:"Playfair Display",serif;
+}
+
+.tituloPagina h1,#fale-conosco .container h2,label{
+    color:rgb(61, 153, 21);
+}
+.tituloPagina :hover{
+    color:rgb(61, 153, 21);
+}
+
+.nav-item .nav-link.title-pages,.nav-item .btn-catalago,.endereco p{
+    color:goldenrod;
+}
+.tituloPagina p{
+    color:rgb(195, 57, 26);
+}
+.font-titles{
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.nav-item .nav-link.active{
+    background-color:rgb(61, 153, 21);
+    color:#fff;
+}
+
+.carousel-item img{
+    height:500px;
+}
+
+.span{
+    color:goldenrod;
+    border-bottom: 2px  solid chocolate;
+}
+
+.alturaImgsSobre{
+    height:424px;
+}
+.sobreALoja{
+    background-color: rgba(1, 2, 2, 0.605);
+    color:#fff;
+}
+.sobreALoja h2{
+    color:rgb(171, 195, 50);
+}
+.title-veiculo{
+    width:367px;
+    height:40px;
+    color:rgb(46, 103, 46)
+}
+
+.imgVeiculos{
+    width:343px;
+    height:228px;
+}
+
+.border{
+width:100%;
+height:3px;
+background-color: goldenrod;
+}
+
+.border-price{
+    width:60px;
+    height:5px;
+    background-color: green;
+    align-self:center;
+    border:none;
+    color:transparent;
+}
+
+.price{
+    color:rgb(154, 154, 154);
+}
+
+.nossasRedes .redesSociais li{
+    list-style:none;
+}
+.nossasRedes .redesSociais li a{
+    text-decoration: none;
+    color:goldenrod;
+}
+
+footer{
+    background-color:green;
+    color:goldenrod;
+    height:5em;
+}
+
+@media screen and (max-width:767px){
+    .carousel-item img{
+        height:270px;
+    }
+    .alturaImgsSobre{
+        height:258px;
+        padding-bottom:2em;
+    }
+    
+    .title-veiculo{
+        width:410px;
+        color:rgb(46, 103, 46)
+    }
+    .border{
+        margin-bottom:10px;
+        }
+        .displayMotos{
+            font-size:1.4em;
+        }
+        footer{
+            height:6em;
+        }
+        .rodape h2{
+            font-size:1.5em;
+        }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .alturaImgsSobre{
+        height:424px;
+        width:220px;
+    }
+
+    footer{
+        height:6.5em;
+    }
+    .linhasAMais{
+        color:transparent;
+    }
+}
